@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Tentang Kami • Veldion Silver - Distributor Perak Fisik Terpercaya</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Pelajari lebih lanjut tentang Veldion Silver. Jembatan investasi perak fisik Anda yang menghubungkan lebih dari 200 supplier resmi Indonesia.">
+    <meta name="keywords" content="tentang veldion silver, distributor perak fisik, investasi perak indonesia">
+    <meta name="author" content="Veldion Silver">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://veldionsilver.github.io/about" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://veldionsilver.github.io/about">
+    <meta property="og:title" content="Tentang Veldion Silver - Jembatan Investasi Perak">
+    <meta property="og:description" content="Menghubungkan investor dengan 200+ supplier perak fisik. Stok ready, proses cepat.">
+    <meta property="og:image" content="https://i.ibb.co.com/MyKwnnnJ/VS-nobg.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS & Lucide Icons -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { 'display': ['Sora', 'sans-serif'], 'body': ['Inter', 'sans-serif'] },
+                    colors: {
+                        void: { DEFAULT: '#1A1D23', 50: '#1F2229', 100: '#262A33', 200: '#2E333E' },
+                        steel: { DEFAULT: '#8B8FA3', light: '#B0B4C6', dark: '#5C5F72' }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Veldion Silver",
+        "url": "https://veldionsilver.github.io/veldion",
+        "logo": "https://i.ibb.co.com/MyKwnnnJ/VS-nobg.png"
+    }
+    </script>
+
+    <style>
+        :root { 
+            --silver-gradient: linear-gradient(145deg, #E5E7EB 0%, #9CA3AF 30%, #4B5563 70%, #D1D5DB 100%); 
+        }
+        * { box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; background: #1A1D23; color: #E5E7EB; margin: 0; overflow-x: hidden; }
+        
+        /* Scrollbar */
+        ::-webkit-scrollbar { width: 4px; background: #1A1D23; }
+        ::-webkit-scrollbar-thumb { background: #3A3F4B; border-radius: 4px; }
+
+        .text-silver-premium { background: var(--silver-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        
+        /* Glass Effect */
+        .glass-panel { 
+            background: linear-gradient(145deg, rgba(38, 42, 51, 0.6) 0%, rgba(30, 33, 40, 0.7) 100%); 
+            backdrop-filter: blur(10px); 
+            border: 1px solid rgba(255,255,255,0.06); 
+        }
+
+        /* Animations Keyframes */
+        @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+        @keyframes glow { 0%, 100% { filter: drop-shadow(0 0 8px rgba(255,255,255,0.1)); } 50% { filter: drop-shadow(0 0 15px rgba(255,255,255,0.15)); } }
+        
+        .animate-float { animation: float 5s ease-in-out infinite; }
+        .animate-glow { animation: glow 3s ease-in-out infinite; }
+
+        /* 
+           SCROLL REVEAL ANIMATION SYSTEM 
+           Default state: Hidden & shifted
+           Active state: Visible & normal position
+        */
+        .reveal { 
+            opacity: 0; 
+            transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1); 
+            transition-delay: 100ms;
+        }
+        
+        /* Specific Animation Types */
+        .reveal-up { transform: translateY(40px); }
+        .reveal-left { transform: translateX(-40px); }
+        .reveal-right { transform: translateX(40px); }
+        .reveal-scale { transform: scale(0.9); }
+
+        /* Active State (Visible) */
+        .reveal.active { 
+            opacity: 1; 
+            transform: translateY(0) translateX(0) scale(1); 
+        }
+
+        /* Premium Button Hover */
+        .btn-hover { transition: all 0.3s ease; }
+        .btn-hover:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+    </style>
+</head>
+<body class="bg-void text-gray-200 font-body">
+
+    <!-- Navigation -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-void/90 backdrop-blur-lg border-b border-white/5">
+        <div class="max-w-6xl mx-auto px-6 h-16 md:h-20 flex items-center justify-between">
+            <a href="https://veldionsilver.github.io/veldion" class="flex flex-col items-start cursor-pointer">
+                <span class="font-display text-xl md:text-2xl font-bold text-silver-premium">VELDION</span>
+                <span class="text-[7px] md:text-[8px] text-steel-dark tracking-[0.2em] uppercase">Silver Bridge</span>
+            </a>
+            <nav class="flex items-center gap-3">
+                <a href="https://veldionsilver.github.io/veldion/#produk" class="hidden sm:block text-sm font-medium text-steel-light hover:text-white transition">Katalog</a>
+                <a href="https://wa.me/628137271517" target="_blank" class="flex items-center gap-2 px-4 py-2.5 bg-white text-black text-xs font-bold rounded-lg hover:bg-gray-100 transition btn-hover">
+                    <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                    <span class="hidden sm:inline">Hubungi</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="relative pt-16 md:pt-20">
+        
+        <!-- Hero Section (Exact 1 Screen Height) -->
+        <section class="relative h-screen w-full flex items-center justify-center overflow-hidden">
+            <!-- Background Effects -->
+            <div class="absolute inset-0 bg-gradient-to-b from-void-50 to-void z-0"></div>
+            <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-white/[0.02] rounded-full blur-3xl"></div>
+            
+            <div class="relative z-10 max-w-3xl mx-auto px-6 text-center flex flex-col items-center justify-center">
+                <!-- Logo -->
+                <div class="mb-8 reveal reveal-up active animate-float">
+                    <img src="https://i.ibb.co.com/MyKwnnnJ/VS-nobg.png" alt="Logo Veldion Silver" class="w-20 h-20 md:w-28 md:h-28 mx-auto object-contain animate-glow">
+                </div>
+                
+                <!-- Badge -->
+                <div class="reveal reveal-up active mb-6" style="transition-delay: 150ms;">
+                    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm">
+                        <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                        <span class="text-[10px] md:text-xs font-semibold text-steel-light uppercase tracking-wider">Trusted Partner</span>
+                    </div>
+                </div>
+
+                <!-- Headline -->
+                <h1 class="reveal reveal-up active font-display text-4xl sm:text-5xl md:text-7xl font-bold text-white leading-[1.1] tracking-tighter mb-6 md:mb-8" style="transition-delay: 300ms;">
+                    Membumi dalam <br class="hidden md:block"><span class="text-silver-premium">Kepercayaan</span>
+                </h1>
+                
+                <!-- Subheadline -->
+                <p class="reveal reveal-up active text-base md:text-xl text-steel max-w-xl mx-auto leading-relaxed mb-10" style="transition-delay: 450ms;">
+                    Jembatan strategis yang menghubungkan investor Indonesia dengan pasokan perak fisik berkualitas tinggi.
+                </p>
+
+                <!-- CTA Buttons -->
+                <div class="reveal reveal-up active flex flex-col sm:flex-row gap-3 justify-center" style="transition-delay: 600ms;">
+                    <a href="https://veldionsilver.github.io/veldion/#produk" class="px-8 py-4 bg-white text-black font-bold text-sm rounded-lg hover:bg-gray-100 transition btn-hover shadow-lg flex items-center justify-center gap-2">
+                        Jelajahi Katalog <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </a>
+                    <a href="https://wa.me/628137271517" target="_blank" class="px-8 py-4 bg-white/5 border border-white/10 text-white font-bold text-sm rounded-lg hover:bg-white/10 transition flex items-center justify-center gap-2 backdrop-blur-sm">
+                        <i data-lucide="message-circle" class="w-4 h-4"></i> Konsultasi
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Scroll Down Indicator -->
+            <div class="absolute bottom-8 left-1/2 -translate-x-1/2 text-steel animate-bounce">
+                 <i data-lucide="chevron-down" class="w-6 h-6"></i>
+            </div>
+        </section>
+
+        <!-- Story Section -->
+        <section class="py-24 md:py-32 bg-void border-t border-white/5">
+            <div class="max-w-5xl mx-auto px-6">
+                <div class="grid lg:grid-cols-2 gap-16 items-center">
+                    <div class="reveal reveal-left">
+                        <span class="text-[10px] font-bold text-steel tracking-[0.3em] uppercase">Our Story</span>
+                        <h2 class="font-display text-3xl md:text-4xl font-bold text-white mt-3 mb-6">Mengapa Veldion Dibangun?</h2>
+                        <div class="space-y-4 text-steel-light leading-relaxed text-sm md:text-base">
+                            <p>
+                                Berawal dari keprihatinan terhadap kesulitan akses masyarakat terhadap logam mulia fisik. Seringkali, investor harus mengantri panjang (<span class="text-white font-medium">Pre-Order 2-3 bulan</span>) untuk mendapatkan perak dari supplier besar.
+                            </p>
+                            <p>
+                                <span class="text-white font-semibold">Veldion Silver</span> lahir sebagai solusi: sebuah platform yang menjembatani antara kebutuhan investor akan stok <span class="text-white font-medium">Ready Stock</span> dengan jaringan supplier terpercaya.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Vision & Mission Card -->
+                    <div class="reveal reveal-right glass-panel p-8 rounded-2xl relative overflow-hidden group">
+                        <div class="absolute top-0 right-0 w-40 h-40 bg-white/5 rounded-full blur-2xl group-hover:bg-white/10 transition duration-500"></div>
+                        <div class="relative z-10 space-y-8">
+                            <div class="flex gap-4">
+                                <div class="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center flex-shrink-0 border border-white/5">
+                                    <i data-lucide="eye" class="w-5 h-5 text-white"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-white text-lg mb-1">Visi</h4>
+                                    <p class="text-sm text-steel-light leading-relaxed">Menjadi pionir distribusi perak fisik paling transparan dan terpercaya di Indonesia.</p>
+                                </div>
+                            </div>
+                            <div class="border-t border-white/5"></div>
+                            <div class="flex gap-4">
+                                <div class="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center flex-shrink-0 border border-white/5">
+                                    <i data-lucide="compass" class="w-5 h-5 text-white"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-white text-lg mb-1">Misi</h4>
+                                    <p class="text-sm text-steel-light leading-relaxed">Menyediakan akses perak fisik mudah, harga kompetitif, dan pengiriman aman.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Value Proposition -->
+        <section class="py-24 md:py-32 bg-void-50 border-t border-white/5">
+            <div class="max-w-5xl mx-auto px-6">
+                <div class="text-center mb-16 reveal reveal-up">
+                    <span class="text-[10px] font-bold text-steel tracking-[0.3em] uppercase">Value Proposition</span>
+                    <h2 class="font-display text-3xl md:text-4xl font-bold text-white mt-3">Komitmen Kami</h2>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+                    <!-- Card 1 -->
+                    <div class="reveal reveal-scale glass-panel rounded-xl p-8 text-center hover:border-white/10 transition duration-300 group">
+                        <div class="w-12 h-12 mx-auto mb-5 bg-white/5 rounded-full flex items-center justify-center border border-white/5 group-hover:bg-white/10 transition">
+                            <i data-lucide="zap" class="w-6 h-6 text-steel-light"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-2">Tanpa Antrean</h3>
+                        <p class="text-sm text-steel-light leading-relaxed">Akses stok ready dari 200+ supplier tanpa waktu tunggu Pre-Order.</p>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="reveal reveal-scale glass-panel rounded-xl p-8 text-center hover:border-white/10 transition duration-300 group" style="transition-delay: 150ms;">
+                        <div class="w-12 h-12 mx-auto mb-5 bg-white/5 rounded-full flex items-center justify-center border border-white/5 group-hover:bg-white/10 transition">
+                            <i data-lucide="badge-check" class="w-6 h-6 text-steel-light"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-2">Kualitas Terjamin</h3>
+                        <p class="text-sm text-steel-light leading-relaxed">Kerja sama dengan supplier resmi bersertifikat. Kadar terjamin 100%.</p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="reveal reveal-scale glass-panel rounded-xl p-8 text-center hover:border-white/10 transition duration-300 group" style="transition-delay: 300ms;">
+                        <div class="w-12 h-12 mx-auto mb-5 bg-white/5 rounded-full flex items-center justify-center border border-white/5 group-hover:bg-white/10 transition">
+                            <i data-lucide="lock" class="w-6 h-6 text-steel-light"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-2">Transaksi Aman</h3>
+                        <p class="text-sm text-steel-light leading-relaxed">Proses transparan dengan bukti fisik real-time untuk keamanan Anda.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-24 md:py-32 bg-gradient-to-b from-void-100 to-void relative overflow-hidden">
+            <div class="absolute inset-0 opacity-5" style="background-image: radial-gradient(#fff 1px, transparent 1px); background-size: 20px 20px;"></div>
+            <div class="relative z-10 max-w-3xl mx-auto px-6 text-center reveal reveal-up">
+                <h2 class="font-display text-3xl md:text-4xl font-bold text-white mb-4">Mulai Investasi Anda</h2>
+                <p class="text-steel-light mb-8 text-base max-w-md mx-auto">Jangan biarkan keraguan menghambat masa depan keuangan Anda.</p>
+                <a href="https://wa.me/628137271517?text=Halo%20Veldion%2C%20saya%20ingin%20konsultasi" target="_blank" class="inline-flex items-center gap-2 px-8 py-4 bg-white text-black font-bold rounded-lg hover:bg-gray-100 transition btn-hover shadow-lg">
+                    <i data-lucide="message-circle" class="w-5 h-5"></i> Hubungi Tim Kami
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer (Simplified One-Liner) -->
+    <footer class="bg-void border-t border-white/5 py-6">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-steel-dark">
+                <div class="flex items-center gap-2">
+                    <span class="font-display font-bold text-steel-light text-sm">VELDION SILVER</span>
+                    <span class="hidden sm:inline">•</span>
+                    <span class="hidden sm:inline">Silver Bridge © 2026</span>
+                </div>
+                <div class="flex items-center gap-4 text-steel">
+                    <span>Banda Aceh, Indonesia</span>
+                    <span>•</span>
+                    <a href="mailto:veldionsilver@gmail.com" class="hover:text-white transition">Email</a>
+                    <span>•</span>
+                    <a href="https://wa.me/628137271517" class="hover:text-white transition">WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script>
+        lucide.createIcons();
+
+        // Advanced Scroll Reveal Logic
+        // Elements fade in when entering viewport, fade out when leaving
+        const observerOptions = {
+            root: null,
+            rootMargin: "0px",
+            threshold: 0.1 // Trigger when 10% of element is visible
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                } else {
+                    // Remove class when element scrolls out of view
+                    entry.target.classList.remove('active');
+                }
+            });
+        }, observerOptions);
+
+        // Select all elements with the 'reveal' class
+        document.querySelectorAll('.reveal').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
